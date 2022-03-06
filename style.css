@@ -119,7 +119,7 @@ div.input button {
   padding-bottom: 25px;
   font-weight: bold;
   font-size: 30px;
-  color: var(--title-color);
+  color: #000;
 }
 
 .movies_description {
@@ -127,7 +127,7 @@ div.input button {
   font-size: 18px;
   line-height: 30px;
   text-align: center;
-  color: var(--text-color);
+  color: #000;
 }
 
 .values {
