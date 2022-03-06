@@ -1,1 +1,82 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  --color-primary: #049583;
+  --color-letter: #f7f7f7;
+  --bg-gray: #e2e2e2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+html,
+body {
+  background-color: var(--bg-gray);
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+/* HEADER ============================== */
+.home {
+  background: var(--color-primary);
+  padding: 20px 100px;
+  border-bottom: 5px solid var(--bg-gray);
+}
+
+.home header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home header > h2 {
+  color: var(--color-letter);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem; /* 32px */
+}
+
+.home header > nav {
+  display: flex;
+  list-style: none;
+}
+
+.home header .input {
+  display: flex;
+}
+
+.home header .input p {
+  font-weight: normal;
+  font-size: 0.8rem;
+
+  left: 851px;
+  top: 22px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: var(--color-letter);
+}
+
+div.input button {
+  background: var(--color-primary);
+  border: 0;
+  padding: 0 16px;
+  border-radius: 0px 4px 4px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input button img {
+  width: 80%;
+}
