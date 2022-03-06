@@ -3,6 +3,7 @@
 :root {
   --color-primary: #049583;
   --color-letter: #f7f7f7;
+  --color-values: #ffbb3a;
   --bg-gray: #e2e2e2;
 }
 
@@ -79,4 +80,73 @@ div.input button {
 
 .input button img {
   width: 80%;
+}
+
+/* MOVIES ========================= */
+.movies_title {
+  padding-top: 50px;
+  font-weight: bold;
+  font-size: 50px;
+  color: var(--color-primary);
+  justify-self: center;
+}
+
+.movies_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  justify-items: center;
+}
+
+.movies_movies {
+  background: rgba(196, 196, 196, 0.07);
+  border: 1px solid rgba(196, 196, 196, 0.76);
+  box-sizing: border-box;
+  backdrop-filter: blur(56px);
+  border-radius: 12px;
+  padding: 65px 25px 55px 25px;
+}
+
+.movies_div {
+  text-align: center;
+  justify-self: center;
+}
+
+.movies_text {
+  padding-top: 20px;
+  padding-bottom: 25px;
+  font-weight: bold;
+  font-size: 30px;
+  color: var(--title-color);
+}
+
+.movies_description {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.values {
+  color: var(--color-values);
+  font-size: 1.2rem;
+}
+
+button {
+  width: 80%;
+  height: 40px;
+
+  color: var(--color-letter);
+  background: var(--color-primary);
+  border: none;
+}
+
+button p {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
