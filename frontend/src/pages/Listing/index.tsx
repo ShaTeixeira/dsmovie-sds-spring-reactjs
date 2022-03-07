@@ -7,21 +7,7 @@ function Listing(){
        <Pagination />
         <div className="container">
            <div className="row">
-               <div className="col">
-                   <MovieCard/>
-                </div>   
-            </div>
-        </div>
-        <div className="container">
-           <div className="row">
-               <div className="col">
-                   <MovieCard/>
-                </div>   
-            </div>
-        </div>
-        <div className="container">
-           <div className="row">
-               <div className="col">
+               <div className="col-sm-6 col-lg-4 col-xl-3">
                    <MovieCard/>
                 </div>   
             </div>
