@@ -46,6 +46,7 @@
 }
 
 .dsmovie-btn {
+  border: none;
   background-color: var(--color-primary);
   font-size: 14px;
   font-weight: 700;
