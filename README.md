@@ -2,10 +2,6 @@
 
 <h3 align="center"> :construction: Projeto em construção :construction: </h3>
 
-## Resumo
-
-Plataforma com listagem de filmes.
-
 <p align="center">
 <!--  <a href="#hammer-funcionalidades-do-projeto">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; -->
  <a href="#features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -14,6 +10,10 @@ Plataforma com listagem de filmes.
   <a href="#tarefas">Tarefas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#licença">Licença</a>
 </p>
+
+## Resumo
+
+Plataforma com listagem de filmes.
 
 ### Features
 
