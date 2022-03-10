@@ -38,7 +38,7 @@ Plataforma com listagem de filmes.
 - [VS Code](https://code.visualstudio.com/Download)
 - [Git](https://git-scm.com/downloads)
 
-> Playlist que mostra a instalação correta: ![youtube](https://www.youtube.com/playlist?list=PLNuUvBZGBA8kMTSPMmmNiRm2z0gRxXxox)
+> Playlist que mostra a instalação correta: (https://www.youtube.com/playlist?list=PLNuUvBZGBA8kMTSPMmmNiRm2z0gRxXxox)
 
 ## Layout
 
