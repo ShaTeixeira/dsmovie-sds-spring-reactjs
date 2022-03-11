@@ -1,33 +1,33 @@
-.dsmovie-form-container {
+/* .dsmovie-form-container {
   max-width: 480px;
   margin: 2.5rem auto;
   padding: 1.25rem;
-}
+} */
 
-.dsmovie-form {
+/* .dsmovie-form {
   width: calc(100% - 20px);
-}
+} */
 
-.dsmovie-form-group {
+/* .dsmovie-form-group {
   margin-bottom: 1.5rem;
-}
+} */
 
-.dsmovie-form-group label {
+/* .dsmovie-form-group label {
   font-size: 0.75rem;
   color: var(--color);
-}
+} */
 
-.dsmovie-form-btn-container {
+/* .dsmovie-form-btn-container {
   display: flex;
   justify-content: center;
-}
+} */
 
-.dsmovie-movie-card-image {
+/* .dsmovie-movie-card-image {
   width: 100%;
   border-radius: 0.5rem 0.5rem 0 0;
-}
+} */
 
-.dsmovie-card-bottom-container {
+/* .dsmovie-card-bottom-container {
   background-color: var(--color-letter);
   display: flex;
   flex-direction: column;
@@ -49,10 +49,10 @@
   border: none;
   background-color: var(--color-primary);
   font-size: 0.875rem; /* 14px */
-  font-weight: 700;
+  /* font-weight: 700;
   height: 2.5rem;
   width: 180px;
   display: flex;
   align-items: center;
-  justify-content: center;
-}
+  justify-content: center; }*/
+

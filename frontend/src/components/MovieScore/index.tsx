@@ -1,20 +1,28 @@
-import MovieStars from '../MovieStars';
-import './styles.css';
+import MovieStars from "components/MovieStars";
+import "./styles.css";
 
-function MovieScore(){
+type Props = {
+  score: number;
+  count: number;
+};
 
-    const score = 3.5;
-    const count = 10;
+function MovieScore({ score, count }: Props) {
+  const text = {
+    value: "avaliações",
+  };
 
-    return(
-        <div className="dsmovie-score-container">
-            {/* condicional ternario (? = if) (: senao) */}
-            <p className="dsmovie-score-value">{score > 0 ? score.toFixed(1) : '-'}</p> 
-                <MovieStars />
-            <p className="dsmovie-score-count">{count} avaliações</p>
-        </div>
-    );
-
+  return (
+    <div className="dsmovie-score-container">
+      {/* condicional ternario */}
+      <p className="dsmovie-score-value">
+        {score > 0 ? score.toFixed(1) : "Aguardando avaliação"}
+      </p>
+      <MovieStars score={score} />
+      <p className="dsmovie-score-count">
+        {count} {text.value}
+      </p>
+    </div>
+  );
 }
 
 export default MovieScore;
