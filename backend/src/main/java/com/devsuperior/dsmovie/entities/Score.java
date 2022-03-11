@@ -1,8 +1,8 @@
 package com.devsuperior.dsmovie.entities;
 
+import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 import javax.persistence.Table;
-import javax.persistence.EmbeddedId;
 
 @Entity
 @Table(name = "tb_score")
@@ -38,8 +38,8 @@ public class Score {
 		return value;
 	}
 
-	public void setValue(Double value) {
-		this.value = value;
+	public void setValue(String string) {
+		this.value = string;
 	}
 	
 	
