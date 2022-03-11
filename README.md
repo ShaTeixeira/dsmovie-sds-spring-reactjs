@@ -97,11 +97,20 @@ yarn add axios@0.24.0
 
 ## 📁 Acesso ao projeto
 
-**Adicionar**
+> Para executar o projeto rode o `yarn dev`, depois abra em `localhost:3000`.
 
 ## 🛠️ Abrir e rodar o projeto
 
-**Adicionar**
+```git
+## clone repositorio
+git clone  "https://github.com/ShaTeixeira/dsmovie-sds-spring-reactjs"
+
+## instalar dependencias
+yarn
+
+## rodar o projeto
+yarn dev
+```
 
 ### Passo: criar projeto Spring Boot
 
