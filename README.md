@@ -1,6 +1,6 @@
 <h1 align="center"> DSMovie </h1>
 
-<h3 align="center"> :construction: Projeto em construção :construction: </h3>
+<h3 align="center"> : Projeto finalizado : </h3>
 
 <p align="center">
 <!--  <a href="#hammer-funcionalidades-do-projeto">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; -->
