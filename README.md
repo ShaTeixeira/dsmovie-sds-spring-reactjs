@@ -4,7 +4,6 @@
 
 <p align="center">
 <!--  <a href="#hammer-funcionalidades-do-projeto">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; -->
- <a href="#features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#tarefas">Tarefas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -14,11 +13,6 @@
 ## Resumo
 
 Plataforma com listagem de filmes.
-
-### Features
-
-- [ ] Envio de formulário
-- [ ] API Rest
 
 ## Tecnologias
 
@@ -44,7 +38,7 @@ Plataforma com listagem de filmes.
 
 Acesse o [Figma](https://www.figma.com/downloads/) para mais informações sobre o layout. Precisa ter uma conta para clonar
 
-[DSMovie 4](https://www.figma.com/file/hyovBMIxwrn2Bb5MZLrxHL/DSMovie4)
+[DSMovie](https://www.figma.com/file/hyovBMIxwrn2Bb5MZLrxHL/DSMovie4)
 
 ### Cores Principais
 
@@ -61,25 +55,15 @@ Acesse o [Figma](https://www.figma.com/downloads/) para mais informações sobre
 }
 ```
 
-#### CSS GLOBAL (index.css)
+#### Instalar Axios
 
-```css
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
-}
-html,
-body {
-  background-color: var(--bg-gray);
-}
-a,
-a:hover {
-  text-decoration: none;
-  color: unset;
-}
+```bash
+yarn add axios@0.24.0
 ```
+
+- Definir BASE_URL
+- Definir os tipos Movie e MoviePage
+- Fazer a requisição
 
 ### Tarefas
 
@@ -100,9 +84,16 @@ a:hover {
 
 > Objetivo final da aula 03 (11/03)
 
-## Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
+- Integrar back end e front end
+- Três pilares do React
+  - Componentes
+  - Props
+  - Estado
+- React Hooks
+  - useState
+  - useEffect
+  - useParams
+  - useNavigate
 
 ## 📁 Acesso ao projeto
 
@@ -111,10 +102,6 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para 
 ## 🛠️ Abrir e rodar o projeto
 
 **Adicionar**
-
-IMPORTANTE: deletar subpasta .git
-
-- _Lembrete: ver extensões e arquivos ocultos_
 
 ### Passo: criar projeto Spring Boot
 
@@ -125,6 +112,10 @@ IMPORTANTE: deletar subpasta .git
   - H2
   - Postgres
   - Security
+
+## Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
 
 ---
 
